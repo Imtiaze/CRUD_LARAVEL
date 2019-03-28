@@ -39,7 +39,7 @@ class StudentController extends Controller
         $attibutes = request()->validate([
             'firstname' => 'required',
             'lastname'  => 'required',
-            'email'     => 'required',
+            'email'     => 'required | email',
             'phone'     => 'required',
         ]);
         Student::create($attibutes);

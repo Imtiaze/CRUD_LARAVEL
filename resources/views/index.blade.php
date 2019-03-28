@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
+<br>
+<br>
 <div class="card">
     <h5 class="card-header h5">Students</h5>
     <div class="card-body">
